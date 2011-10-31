@@ -1,0 +1,10 @@
+#message types
+ERROR = -1
+ASSIGNID = 0
+REQUESTID = 1
+SETKEYS = 2
+EVENT = 3
+START = 4
+STOP = 5
+PING = 6
+PONG = 7

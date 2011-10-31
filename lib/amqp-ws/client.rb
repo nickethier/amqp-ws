@@ -11,7 +11,7 @@ class AMQP::WS::Client
     @id = options[:id]
     @channel = options[:channel]
     @ws = options[:ws]
-    @queue = @channel.queue("rosie.ws.client.#{@id}", :persistent => false, :auto_delete => true)
+    @queue = @channel.queue("amqp.ws.client.#{@id}", :persistent => false, :auto_delete => true)
     
   end
   
